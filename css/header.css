@@ -1,0 +1,48 @@
+.navbar {
+    background: rgb(30, 30, 30);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.avatar {
+    position: fixed;
+    top: 12px;
+    left: 20px;
+    border-radius: 50%;
+    width: 45px;
+}
+
+header a {
+    color: lightgrey;
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border-width: 2px;
+    text-decoration: none;
+}
+  
+header a:hover {
+    text-decoration: none;
+    color: white;;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    line-height: 40px;
+}
+
+header li {
+    margin-right:  20px;
+}
+
+.pseudo {
+    color: lightgrey;
+    position: fixed;
+    top: 12px;
+    left: 90px;
+}

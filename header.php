@@ -1,28 +1,21 @@
 <body>
+
     <header>
-        <nav class="navbar">
-            <ul class="flexul">
+        <!-- Navbar -->
+        <nav>
+            <!-- Icone -->
+            <a href="index.html" title="page d'accueil">
+                <img src="img/logo/logo_black.png" alt="logo ls-a">
+            </a>
 
-                <img src="image/GitHub-Mark-Light-64px.png" alt="" class="avatar"> <?php
+            <!-- menu burger -->
+            <img src="img/logo/menu.svg" alt="menu">
 
-                if ( isset($_SESSION['token']) && $_SESSION['token'] = true) { ?>
-                    <h2 class="pseudo"><?php echo $_SESSION['pseudo']; ?></h2> <?php
-                } ?>
-
-                <li> <a class="link" href="index.php">Acceuil</a> </li>
-                <li> <a class="link" href="blogs.php">Blogs</a> </li> <?php
-
-                if ( isset($_SESSION['token']) && $_SESSION['token'] = true) { ?>
-
-                    <li> <a href="post.php">Ecrire un Post</a> </li>
-                    <li> <a href="signout.php">Deconnexion</a> </li> <?php
-                    
-                } else { ?>
-
-                <li> <a class="link" href="login.php">Connexion</a> </li>
-                <li> <a class="link" href="signin.php">Inscription</a> </li> <?php
-                
-                } ?>
+            <!-- Liste liens -->
+            <ul>
+                <li><a href="index.php" class="active">Accueil</a></li>
+                <li><a href="autre.php">Autre</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>

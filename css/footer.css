@@ -7,23 +7,23 @@ body > footer {
 	border-top: 1px solid var( --border-color );
 }
 
-/* Adresse */
-body > footer > section:nth-child( 1 ) {
-	font-size: 1.2em;
-	line-height: 1.3em;
-}
-body > footer > section:nth-child( 1 ) > p:first-child {
-	font-size: 1.2em;
-	font-weight: bold;
-}
-
 /* Réseaux sociaux */
-body > footer > section:nth-child( 2 ) {
+body > footer > section:nth-child( 1 ) {
 	display: flex;
 	justify-content: space-evenly;
 }
-body > footer > section:nth-child( 2 ) img {
+body > footer > section:nth-child( 1 ) img {
 	height: 80px;
+}
+
+/* Adresse */
+body > footer > section:nth-child( 2 ) {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+body > footer > section:nth-child( 2 ) > p:first-child {
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 /* Mentions */

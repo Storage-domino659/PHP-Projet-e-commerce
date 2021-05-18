@@ -3,9 +3,15 @@
     <header>
         <!-- Navbar -->
         <nav>
+            <!-- Sexe -->
+            <ul>
+                <li><a href="" class="active">Women</a></li>
+                <li><a href="">Men</a></li>
+            </ul>
+
             <!-- Icone -->
-            <a href="index.html" title="page d'accueil">
-                <img src="img/logo/logo_black.png" alt="logo ls-a">
+            <a href="index.php" title="page d'accueil">
+                <img src="img/logo/Esprit_Shonen.svg" alt="logo ls-a">
             </a>
 
             <!-- menu burger -->
@@ -13,7 +19,7 @@
 
             <!-- Liste liens -->
             <ul>
-                <li><a href="index.php" class="active">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="autre.php">Autre</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>

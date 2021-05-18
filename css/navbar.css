@@ -94,4 +94,9 @@ body > header > nav > ul a:hover::before {
 	body > header > nav > ul {
 		column-gap: 20px;
 	}
+
+	/* Logo */
+	body > header > nav > a {
+		
+	}
 }

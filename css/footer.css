@@ -1,33 +1,62 @@
 /* Sans media */
 body > footer {
-	display: grid;
+	/* display: grid;
 	row-gap: var( --footer-padding );
-	padding: 40px var( --global-horizontal-padding ) 0;
+	padding: 40px var( --global-horizontal-padding ) 0; */
 	box-sizing: border-box;
 	border-top: 1px solid var( --border-color );
 }
 
-/* Réseaux sociaux */
-body > footer > section:nth-child( 1 ) {
+body > footer > div {
 	display: flex;
-	justify-content: space-evenly;
 }
-body > footer > section:nth-child( 1 ) img {
-	height: 80px;
+
+body > footer > div > section {
+	width: 50%;
+}
+
+/* Réseaux sociaux */
+body > footer > div > section:nth-child( 1 ) {
+	display: flex;
+	justify-content: flex-end;
+	border-right: 1px solid var( --border-color );
+	margin: 10px 0 10px 0;
+}
+
+body > footer > div > section:nth-child( 1 ) img {
+	height: 40px;
+}
+
+body > footer > div > section:nth-child( 1 ) > a {
+	padding-right: 25px;
+}
+
+/* Payement */
+body > footer > div > section:nth-child( 2 ) {
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0 10px 0;
+}
+body > footer > div > section:nth-child( 2 ) img {
+	height: 40px;
+}
+
+body > footer > div > section:nth-child( 2 ) > a {
+	padding-left: 25px;
 }
 
 /* Adresse */
-body > footer > section:nth-child( 2 ) {
+body > footer > section:nth-child( 3 ) {
 	font-size: 1.2em;
 	line-height: 1.3em;
 }
-body > footer > section:nth-child( 2 ) > p:first-child {
+body > footer > section:nth-child( 3 ) > p:first-child {
 	font-size: 1.2em;
 	font-weight: bold;
 }
 
 /* Mentions */
-body > footer > section:nth-child( 3 ) {
+body > footer > section:nth-child( 4 ) {
 	padding: var( --footer-padding ) 0;
 	text-align: center;
 	font-style: italic;
@@ -55,3 +84,26 @@ body > footer > section:nth-child( 3 ) {
 		grid-column: 1 / span 2;
 	}
 }
+
+
+
+
+/* old */
+/* Adresse
+body > footer > section:nth-child( 1 ) {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+body > footer > section:nth-child( 1 ) > p:first-child {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* Réseaux sociaux */
+/* body > footer > section:nth-child( 2 ) {
+	display: flex;
+	justify-content: space-evenly;
+}
+body > footer > section:nth-child( 2 ) img {
+	height: 80px;
+} */

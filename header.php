@@ -1,6 +1,10 @@
 <body>
 
     <header>
+        <!-- Newsletter -->
+        <section>
+            <p>-20% by subscribing to our newsletter</p>
+        </section>
         <!-- Navbar -->
         <nav>
             <!-- Sexe -->

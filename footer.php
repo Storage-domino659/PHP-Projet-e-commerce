@@ -15,7 +15,6 @@
 					<img src="img/socials/applepay.svg" alt="logo Applepay">
 				</section>
 			</div>
-
 			<div class="footer2">
 
 				<div>
@@ -48,13 +47,12 @@
 					</section>
 					<!-- Logo/Login -->
 					<section>
-						<h2>HELP AND INFORMATION</h2>
+						<h2>Logo</h2>
 						<br>
-						<h3>53 rue de la h3aix</h3>
-						<h3>10000 Troyes</h3>
+						<h3>Sign in</h3>
 					</section>
 				</div>
-
+			</div>
 		</footer>
 		
 		<!-- JS global -->

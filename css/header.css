@@ -1,0 +1,21 @@
+/* Global */
+body > header {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: var( --navbar-height );
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 1px solid var( --border-color );
+}
+
+/* Newsletter */
+header > section {
+    height: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+}

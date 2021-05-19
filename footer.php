@@ -18,41 +18,42 @@
 
 			<div class="footer2">
 
-	
-				<!-- Help And Information -->
-				<section>
-					<h2>HELP AND INFORMATION</h2>
-					<br>
-					<h3>Help</h3>
-					<h3>Track Order</h3>
-					<h3>Delivery & Returns</h3>
-					<h3>Premier Delivery</h3>
-					<h3>Privacy & Cookies</h3>
-				</section>
-				<!-- About -->
-				<section>
-					<h2>ABOUT</h2>
-					<br>
-					<h3>About us</h3>
-					<h3>Careers</h3>
-					<h3>Corporate Responsability</h3>
-					<h3>Investors Site</h3>
-					<h3>Ts&Cs</h3>
-					<h3>Accessibility</h3>
-				</section>
-				<!-- Shopping From -->
-				<section>
-					<h2>SHOPPING FROM:</h2>
-					<br>
-					<h3>France</h3>
-				</section>
-				<!-- Logo/Login -->
-				<section>
-					<h2>HELP AND INFORMATION</h2>
-					<br>
-					<h3>53 rue de la h3aix</h3>
-					<h3>10000 Troyes</h3>
-				</section> 
+				<div>
+					<!-- Help And Information -->
+					<section>
+						<h2>HELP AND INFORMATION</h2>
+						<br>
+						<h3>Help</h3>
+						<h3>Track Order</h3>
+						<h3>Delivery & Returns</h3>
+						<h3>Premier Delivery</h3>
+						<h3>Privacy & Cookies</h3>
+					</section>
+					<!-- About -->
+					<section>
+						<h2>ABOUT</h2>
+						<br>
+						<h3>About us</h3>
+						<h3>Careers</h3>
+						<h3>Corporate Responsability</h3>
+						<h3>Investors Site</h3>
+						<h3>Ts&Cs</h3>
+						<h3>Accessibility</h3>
+					</section>
+					<!-- Shopping From -->
+					<section>
+						<h2>SHOPPING FROM:</h2>
+						<br>
+						<h3>France</h3>
+					</section>
+					<!-- Logo/Login -->
+					<section>
+						<h2>HELP AND INFORMATION</h2>
+						<br>
+						<h3>53 rue de la h3aix</h3>
+						<h3>10000 Troyes</h3>
+					</section>
+				</div>
 
 		</footer>
 		

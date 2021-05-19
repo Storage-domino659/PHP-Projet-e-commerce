@@ -22,10 +22,13 @@
             <img src="img/logo/menu.svg" alt="menu">
 
             <!-- Liste liens -->
+            <img id="win" class="victory_hidden" src="" alt="">
             <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="autre.php">Autre</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a id="acceuil" class="inactive" href="index.php">Accueil</a></li>
+                <li><a id="autre" class="inactive" href="autre.php">Autre</a></li>
+                <li><a id="contact" class="inactive" href="contact.php">Contact</a></li>
             </ul>
         </nav>
+
     </header>
+    <script src="js/detectepage.js"></script>

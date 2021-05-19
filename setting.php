@@ -8,4 +8,5 @@
 	<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
 	<!-- Global -->
 	<link rel="stylesheet" href="css/include.css">
+	<link rel="shortcut icon" href="#" />
 </head>

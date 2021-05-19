@@ -2,10 +2,11 @@
 		<footer>
 			<div class="footer1">
 				<!-- Réseaux sociaux -->
+				<!-- §§§§§§§§§§§§§§§§§ Utiliser icone -->
 				<section>
-					<a href="" title="facebook ls-a"><img src="img/socials/fb 3.svg" alt="logo Facebook"></a>
-					<a href="" title="instagram ls-a"><img src="img/socials/inst 3.svg" alt="logo Instagram"></a>
-					<a href="" title="linkedin ls-a"><img src="img/socials/twi 3.svg" alt="logo Linkedin"></a>
+					<a href="" title="facebook"><img src="img/socials/fb 3.svg" alt="logo Facebook"></a>
+					<a href="" title="instagram"><img src="img/socials/inst 3.svg" alt="logo Instagram"></a>
+					<a href="" title="linkedin"><img src="img/socials/twi 3.svg" alt="logo Linkedin"></a>
 				</section>
 				<!-- Payment -->
 				<section>

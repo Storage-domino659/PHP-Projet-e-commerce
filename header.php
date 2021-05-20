@@ -9,8 +9,8 @@
         <nav>
             <!-- Sexe -->
             <ul>
-                <li><a href="" class="active">Women</a></li>
-                <li><a href="">Men</a></li>
+                <li><h2 href="">Women</h2></li>
+                <li><h2 href="">Men</h2></li>
             </ul>
 
             <!-- Icone -->

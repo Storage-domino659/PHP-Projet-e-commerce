@@ -3,7 +3,7 @@
     <header>
         <!-- Newsletter -->
         <section>
-            <p>-20% by subscribing to our newsletter</p>
+            <h5>-20% by subscribing to our newsletter</h5>
         </section>
         <section>
             <section class="flagheader">
@@ -15,8 +15,8 @@
         <nav>
             <!-- Sexe -->
             <ul>
-                <li><h2 href="">Women</h2></li>
-                <li><h2 href="">Men</h2></li>
+                <li><h3 href="">Women</h3></li>
+                <li><h3 href="">Men</h3></li>
             </ul>
 
             <!-- menu burger -->
@@ -31,7 +31,7 @@
             <div class="contentshop">
                 <section class="signinheader">
                     <img src="img/logo/logblack.svg" alt="logo signin">
-                    <h3>Sign in</h3>
+                    <h4>Sign in</h4>
                 </section>
                 <a href=""><img src="img/logo/shop.svg" alt="logo esprit shonen"></a>
             </div>

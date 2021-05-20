@@ -75,3 +75,30 @@ body > header > nav > ul a:hover::before {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
+
+/* Hero */
+#hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 50px;
+	height: calc( 100vh - var( --navbar-height ) );
+	background: url( "../img/hero/victoria-cj4Sd3jLPZ8-unsplash.jpg" );
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 3px var( --border-color );
+}
+
+#hero h1 {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+#hero a {
+	font-size: 1.3em;
+	color: inherit;
+}

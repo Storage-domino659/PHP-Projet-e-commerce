@@ -6,14 +6,14 @@
 					If you decide to wear the brand, you have to be ready to want to evolve.</p>
 				</section>
 				<section>
-					<hp4>Join the Shonen community</h4>
+					<hp3>Join the Shonen community</h4>
 				</section>
 				<section>
-					<p>Esprit Shonen <br> 
+					<h4>Esprit Shonen <h4> 
 					精神 少年</p>
 				</section>
 				<section>
-					<p>Sign up</p>
+					<a>Sign up</a>
 				</section>
 			</div>
 
@@ -37,33 +37,33 @@
 				<div>
 					<!-- Help And Information -->
 					<section>
-						<h2>HELP AND INFORMATION</h2>
+						<h4>HELP AND INFORMATION</h4>
 						<br>
-						<h3>Help</h3>
-						<h3>Track Order</h3>
-						<h3>Delivery & Returns</h3>
-						<h3>Premier Delivery</h3>
-						<h3>Privacy & Cookies</h3>
+						<h5>Help</h5>
+						<h5>Track Order</h5>
+						<h5>Delivery & Returns</h5>
+						<h5>Premier Delivery</h5>
+						<h5>Privacy & Cookies</h5>
 					</section>
 					<!-- About -->
 					<section>
-						<h2>ABOUT</h2>
+						<h4 id="space">ABOUT</h4>
 						<br>
-						<h3>About us</h3>
-						<h3>Careers</h3>
-						<h3>Corporate Responsability</h3>
-						<h3>Investors Site</h3>
-						<h3>Ts&Cs</h3>
-						<h3>Accessibility</h3>
+						<h5>About us</h5>
+						<h5>Careers</h5>
+						<h5>Corporate Responsability</h5>
+						<h5>Investors Site</h5>
+						<h5>Ts&Cs</h5>
+						<h5>Accessibility</h5>
 					</section>
 					<!-- Shopping From -->
 					<section class="gridcorrection">
-						<h2>SHOPPING FROM</h2>
+						<h4>SHOPPING FROM</h4>
 						<br>
 						<!-- Flag -->
 						<section class="flagfooter">
 							<img src="img/logo/flag.svg" alt="french flag">
-							<h3>France</h3>
+							<h4>France</h4>
 						</section>
 					</section>
 					<!-- Logo/Login -->
@@ -73,7 +73,7 @@
 						<!-- Signin -->
 						<section class="signinfooter">
 							<img src="img/logo/logwhite.svg" alt="logo signin">
-							<h3>Sign in</h3>
+							<h4>Sign in</h4>
 						</section>
 					</section>
 				</div>

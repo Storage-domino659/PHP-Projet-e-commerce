@@ -20,7 +20,7 @@
             </ul>
 
             <!-- menu burger -->
-            <img src="img/logo/menu.svg" alt="menu">
+            <img src="img/logo/menu2.svg" alt="menu">
             
             <!-- Icone -->
             <a href="index.php" title="page d'accueil">

@@ -32,11 +32,6 @@
 	min-height: 100vh;
 }
 
-/* banner */
-#banner {
-	width: 100%;
-}
-
 /* txt */
 #txt {
 	display: grid;

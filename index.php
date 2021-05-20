@@ -7,8 +7,6 @@
 <!-- Main -->
 	<main id="main">
 		
-		<!-- New Collection -->
-		<img id="banner" src="img/content/newcollection.jpg" alt="">	
 		<!-- txt -->
 		<div id="txt">
 			<section>

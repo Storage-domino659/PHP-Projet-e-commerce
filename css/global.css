@@ -16,7 +16,7 @@ html {
 
 /* Sans media */
 body {
-	width: fit-content;
+	min-width: fit-content;
 }
 
 /* Smartphone */

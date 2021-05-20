@@ -4,16 +4,16 @@
 				<!-- Réseaux sociaux -->
 				<!-- §§§§§§§§§§§§§§§§§ Utiliser icone -->
 				<section>
-					<a href="" title="facebook"><img src="img/socials/fb 3.svg" alt="logo Facebook"></a>
-					<a href="" title="instagram"><img src="img/socials/inst 3.svg" alt="logo Instagram"></a>
-					<a href="" title="linkedin"><img src="img/socials/twi 3.svg" alt="logo Linkedin"></a>
+					<a href="https://www.facebook.com/EspritShonen/?ref=page_internal" target="_blank" title="facebook"><img src="img/socials/facebook.svg" alt="logo Facebook"></a>
+					<a href="https://www.instagram.com/espritshonen/?hl=fr" target="_blank" title="instagram"><img src="img/socials/instagram.svg" alt="logo Instagram"></a>
+					<a href="https://twitter.com/NoahQol" target="_blank" title="linkedin"><img src="img/socials/twitter.svg" alt="logo Linkedin"></a>
 				</section>
 				<!-- Payment -->
 				<section>
 					<img src="img/socials/visa.svg" alt="logo Visa">
-					<img src="img/socials/mastercard.svg" alt="logo MasterCard">
+					<img src="img/socials/master.svg" alt="logo MasterCard">
 					<img src="img/socials/paypal.svg" alt="logo Paypal">
-					<img src="img/socials/applepay.svg" alt="logo Applepay">
+					<img src="img/socials/apple-pay-logo.png" alt="logo Applepay">
 				</section>
 			</div>
 			<div class="footer2">
@@ -42,15 +42,14 @@
 					</section>
 					<!-- Shopping From -->
 					<section>
-						<h2>SHOPPING FROM:</h2>
+						<h2>SHOPPING FROM</h2>
 						<br>
 						<h3>France</h3>
 					</section>
 					<!-- Logo/Login -->
 					<section>
-						<h2>Logo</h2>
-						<br>
-						<h3>Sign in</h3>
+						<img src="img/logo/Esprit_Shonen_White.svg" alt="logo esprit shonen">
+						<h2>Sign in</h2>
 					</section>
 				</div>
 			</div>

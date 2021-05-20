@@ -12,10 +12,13 @@ body > footer > .footer1 > section {
 	width: 50%;
 }
 
+
 /* Footer1 */
 .footer1 {
 	display: flex;
 }
+
+
 /* Réseaux sociaux */
 body > footer > .footer1 > section:nth-child( 1 ) {
 	display: flex;
@@ -29,8 +32,9 @@ body > footer > .footer1 > section:nth-child( 1 ) img {
 }
 
 body > footer > .footer1 > section:nth-child( 1 ) > a {
-	padding-right: 25px;
+	padding-right: 5%;
 }
+
 
 /* Payement */
 body > footer > .footer1 > section:nth-child( 2 ) {
@@ -43,23 +47,41 @@ body > footer > .footer1 > section:nth-child( 2 ) img {
 }
 
 body > footer > .footer1 > section:nth-child( 2 ) img {
-	padding-left: 25px;
+	padding-left: 5%;
 }
 
-/* Footer2 */
+
+
+/* Footer Part 2 */
 body > footer > .footer2 {
 	background-color: black;
 }
 
 body > footer > .footer2 > div {
 	color: white;
-	margin: 0 10% 0 10%;
+	margin: 0 7% 0 7%;
 	padding: 20px;
 }
 
 body > footer > .footer2 > div > section {
 	margin: 10px;
 }
+
+
+/* Font */
+footer h2, h3 {
+	width: max-content;
+	line-height: 25px;
+}
+
+footer h2 {
+	font-weight: bolder;
+}
+
+footer img {
+	height: 35px;
+}
+
 
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
@@ -84,7 +106,9 @@ body > footer > .footer2 > div > section {
 	}
 
 	body > footer > .footer2 > div {
-		display: flex;
+		display: grid;
+		gap: 15px;
+		grid-template-columns: 2fr 2fr 2fr 1fr;
 	}
 	
 	body > footer > .footer2 > div > section {

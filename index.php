@@ -6,8 +6,12 @@
 
 <!-- Main -->
 	<main id="main">
-		
+		<section class="video">
 
+		</section>
+		<section class="collection">
+
+		</section>
 	</main>
 
 <?php include 'footer.php'; ?>

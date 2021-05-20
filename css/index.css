@@ -2,7 +2,6 @@
 
 /* Main */
 #main {
-	/* Faire un calc de heder - footer qd finalisé !!!!!!! */
 	min-height: 100vh;
 }
 
@@ -26,6 +25,7 @@
 	bottom: 100px;
 	border-bottom: 3px solid black;
 	border-top: 3px solid black;
+	width: fit-content;
 }
 
 .video > #shopnow {
@@ -36,35 +36,68 @@
 	transform: translateX(-50%);
 	bottom: 50px;
 	font-weight: bold;
+	transition: 0.5s;
 }
+
+.video > #shopnow:hover {
+	color: white;
+	background-color: black;
+	border: 3px solid white;
+	transition: 0.5s;
+}
+
 
 .titlecollection {
 	height: 60px;
 	margin-top: 50px;
+}
+
+.titlecollection > h2 {
 	text-align: center;
 }
 
 .collection {
-    display: grid;
-	position: relative;
-	height: 500px;
-	background-color: blue;
+
     box-sizing: border-box;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .collection > div > img {
-	width: max-content;
 	object-fit: cover;
+	width: -webkit-fill-available;
+	height: 100%;
 }
 
+.collection > div {
+	position: relative;
+}
+
+.collection > div > a {
+	position: absolute;
+	background-color: black;
+	color: white;
+	padding: 15px 30px;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.collection > div > a:hover {
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
 
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
-
 }
 
 /* PC */
 @media screen and ( min-width: 601px ) {
-
+	.collection {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }

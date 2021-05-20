@@ -16,20 +16,21 @@
 			<h2 >Our Collections</h2>
 		</div>
 		
-		<!-- <section class="collection">
+		<section class="collection">
 			<div>
+				<a href=""><h3>Bleach</h3></a>
 				<img src="img/content/bleach.jpg" alt="Img Bleach">
-				<a href=""></a>
-			</div>
-			<div>
-				<img src="img/content/hxh.jpg" alt="Img HxH">
-				<a href=""></a>
-			</div>
-			<div>
-				<img src="img/content/dbz.jpg" alt="Img DBZ">
 
 			</div>
-		</section> -->
+			<div>
+				<a href=""><h3>HxH</h3></a>
+				<img src="img/content/hxh.jpg" alt="Img HxH">
+			</div>
+			<div>
+				<a href=""><h3>DBZ</h3></a>
+				<img src="img/content/dbz.jpg" alt="Img DBZ">
+			</div>
+		</section>
 	</main>
 
 <?php include 'footer.php'; ?>

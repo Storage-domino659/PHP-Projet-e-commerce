@@ -1,10 +1,6 @@
 /* Global */
 body > header {
 	z-index: 10;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: var( --navbar-height );
 	background-color: #fff;
 	width: 100%;
 	border-bottom: 1px solid var( --border-color );
@@ -17,12 +13,6 @@ header > section:nth-child( 1 ) {
     color: white;
     text-align: center;
 	line-height: 15px;
-}
-
-/* Section Flag */
-header > section:nth-child( 2 ) {
-	height: 30px;
-	position: relative;
 }
 
 /* Flag */
@@ -64,4 +54,39 @@ header > section:nth-child( 3 ) {
 	text-align: center;
 	padding-left: 10px;
 	opacity: 0.5;
+}
+
+
+/* Smartphone */
+@media screen and ( max-width: 600px ) {
+	body > header {
+		height: var( --navbar-height );
+	}
+	body > header {
+		/* DesactivatedStiky */
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.flagheader {
+		display: none;
+	}
+}
+
+/* PC */
+@media screen and ( min-width: 601px ) {
+	body > header {
+		height: var( --navbar-height );
+	}
+	/* body > header {
+		DesactivatedStiky
+		position: fixed;
+		top: 0;
+		left: 0;
+	} */
+	/* Section Flag */
+	header > section:nth-child( 2 ) {
+	height: 30px;
+	position: relative;
+	}
 }

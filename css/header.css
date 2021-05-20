@@ -7,15 +7,62 @@ body > header {
 	height: var( --navbar-height );
 	background-color: #fff;
 	width: 100%;
-	/* border-bottom: 1px solid var( --border-color ); */
+	border-bottom: 1px solid var( --border-color );
 }
 
 /* Newsletter */
-header > section {
+header > section:nth-child( 1 ) {
     height: 15px;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 10px;
-    line-height: 15px;
+    line-height: 20px;
+}
+
+/* Section Flag */
+header > section:nth-child( 2 ) {
+	height: 35px;
+	position: relative;
+}
+
+/* Flag */
+.flagheader {
+	display: flex;
+	height: inherit;
+	margin-left: 94%;
+	align-items: flex-end;
+	position: absolute;
+    right: 25px;
+}
+
+.flagheader > img {
+	margin-top: 10%;
+	height: 15px;
+}
+
+.flagheader > p {
+	text-align: center;
+	padding-left: 10px;
+}
+
+header > section:nth-child( 3 ) {
+	height: 45px;
+}
+
+/* Searchbar */
+.searchbar {
+	display: flex;
+	margin-left: 3%;
+	align-items: flex-end;
+}
+
+.searchbar > img {
+	height: 15px;
+}
+
+.searchbar > p {
+	text-align: center;
+	padding-left: 10px;
+	opacity: 0.5;
 }

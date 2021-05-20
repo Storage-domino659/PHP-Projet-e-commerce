@@ -4,13 +4,49 @@ body > footer {
 	/* display: grid;
 	row-gap: var( --footer-padding );
 	padding: 40px var( --global-horizontal-padding ) 0; */
-	box-sizing: border-box;
-	border-top: 1px solid var( --border-color );
+	box-sizing: border-box;	
 }
 
 body > footer > .footer1 > section {
 	width: 50%;
 }
+
+/* Footer0 */
+.footer0 {
+	text-align: center;
+	margin: 50px 0;
+	line-height: 25px;
+	border-top: 1px solid var( --border-color );
+	padding-top: 50px;
+}
+
+.footer0 > section {
+	margin-bottom: 30px;
+}
+
+.footer0 > section:nth-child( 1 ) {
+	opacity: 0.6;
+}
+
+.footer0 > section:nth-child( 2 ) {
+	font-weight: 700;
+}
+
+.footer0 > section:nth-child( 4 ) > p {
+	font-weight: 700;
+	border: 4px solid black;
+	padding: 5px 15px;
+	width: fit-content;
+	margin: auto;
+}
+
+/* Footer1 */
+.footer1 {
+	display: flex;
+	box-sizing: border-box;
+	border-top: 1px solid var( --border-color );
+}
+
 
 
 /* Footer1 */
@@ -28,7 +64,7 @@ body > footer > .footer1 > section:nth-child( 1 ) {
 }
 
 body > footer > .footer1 > section:nth-child( 1 ) img {
-	height: 40px;
+	height: 30px;
 }
 
 body > footer > .footer1 > section:nth-child( 1 ) > a {
@@ -43,13 +79,12 @@ body > footer > .footer1 > section:nth-child( 2 ) {
 	margin: 10px 0 10px 0;
 }
 body > footer > .footer1 > section:nth-child( 2 ) img {
-	height: 40px;
+	height: 30px;
 }
 
 body > footer > .footer1 > section:nth-child( 2 ) img {
 	padding-left: 5%;
 }
-
 
 
 /* Footer Part 2 */
@@ -59,7 +94,6 @@ body > footer > .footer2 {
 
 body > footer > .footer2 > div {
 	color: white;
-	margin: 0 7% 0 7%;
 	padding: 20px;
 }
 
@@ -67,6 +101,42 @@ body > footer > .footer2 > div > section {
 	margin: 10px;
 }
 
+/* Logo Esprit Shonn Footer */
+.logofooter {
+	height: 35px;
+}
+
+/* Flag */
+.flagfooter {
+	display: flex;
+}
+
+.flagfooter > h3 {
+	padding-left: 10px;
+}
+
+
+/* Signin footer */
+.signinfooter {
+	display: flex;
+	border: 2px solid white;
+	width: fit-content;
+	padding: 10px;
+	align-items: center;
+}
+
+.signinfooter:hover {
+	opacity: 0.8;
+}
+
+.signinfooter > img {
+	height: 20px;
+}
+
+.signinfooter > h3 {
+	margin-left: 10px;
+	height: fit-content;
+}
 
 /* Font */
 footer h2, h3 {
@@ -78,10 +148,6 @@ footer h2 {
 	font-weight: bolder;
 }
 
-footer img {
-	height: 35px;
-}
-
 
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
@@ -89,6 +155,22 @@ footer img {
 	/* Adresse */
 	body > footer > section:nth-child( 1 ) {
 		text-align: center;
+	}
+
+		body > footer > .footer2 > div {
+		display: grid;
+		gap: 15px;
+		grid-template-columns: 4fr 4fr 4fr;
+	}
+	.logofooter {
+		display: none;
+	}
+	.gridcorrection {
+		grid-column-start: 3;
+		grid-row-start: 1;
+	}
+	.signinfooter {
+		margin-top: 50%;
 	}
 }
 
@@ -113,5 +195,12 @@ footer img {
 	
 	body > footer > .footer2 > div > section {
 		width: 25%;
+	}
+
+	body > footer > .footer2 > div {
+		margin: 0 5% 0 5%;
+	}
+	.signinfooter {
+		margin: 0 50%;
 	}
 }

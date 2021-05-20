@@ -42,6 +42,40 @@ body > header > nav > ul a:hover::before {
 	right: calc( 100% + 3px );
 }
 
+/* Content Shop */
+.contentshop {
+	display: flex;
+	align-items: center;
+}
+
+/* Signin header */
+.signinheader {
+	display: flex;
+	border: 2px solid black;
+	width: fit-content;
+	padding: 10px;
+	color: black;
+	height: fit-content;
+	align-items: center;
+}
+
+.signinheader:hover {
+	opacity: 0.8;
+}
+
+.signinheader > img {
+	height: 20px;
+}
+
+.signinheader > h3 {
+	margin-left: 10px;
+	height: fit-content;
+}
+
+.contentshop > img {
+	margin-left: 25px;
+	height: 25px;
+}
 
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
@@ -54,7 +88,7 @@ body > header > nav > ul a:hover::before {
 		margin: var( --navbar-padding ) 0;
 	}
 	body > header > nav.opened > img {
-		transform: rotate( 270deg );
+		transform: rotate( 90deg );
 	}
 
 	/* Liste */

@@ -1,8 +1,24 @@
 		<!-- Footer -->
 		<footer>
+			<div class="footer0">
+				<section>
+					<p>The Esprit Shonen brand is imbued with pure, strong energy. <br> 
+					If you decide to wear the brand, you have to be ready to want to evolve.</p>
+				</section>
+				<section>
+					<hp4>Join the Shonen community</h4>
+				</section>
+				<section>
+					<p>Esprit Shonen <br> 
+					精神 少年</p>
+				</section>
+				<section>
+					<p>Sign up</p>
+				</section>
+			</div>
+
 			<div class="footer1">
 				<!-- Réseaux sociaux -->
-				<!-- §§§§§§§§§§§§§§§§§ Utiliser icone -->
 				<section>
 					<a href="https://www.facebook.com/EspritShonen/?ref=page_internal" target="_blank" title="facebook"><img src="img/socials/facebook.svg" alt="logo Facebook"></a>
 					<a href="https://www.instagram.com/espritshonen/?hl=fr" target="_blank" title="instagram"><img src="img/socials/instagram.svg" alt="logo Instagram"></a>
@@ -16,8 +32,8 @@
 					<img src="img/socials/apple-pay-logo.png" alt="logo Applepay">
 				</section>
 			</div>
-			<div class="footer2">
 
+			<div class="footer2">
 				<div>
 					<!-- Help And Information -->
 					<section>
@@ -41,15 +57,24 @@
 						<h3>Accessibility</h3>
 					</section>
 					<!-- Shopping From -->
-					<section>
+					<section class="gridcorrection">
 						<h2>SHOPPING FROM</h2>
 						<br>
-						<h3>France</h3>
+						<!-- Flag -->
+						<section class="flagfooter">
+							<img src="img/logo/flag.svg" alt="french flag">
+							<h3>France</h3>
+						</section>
 					</section>
 					<!-- Logo/Login -->
-					<section>
-						<img src="img/logo/Esprit_Shonen_White.svg" alt="logo esprit shonen">
-						<h2>Sign in</h2>
+					<section class="gridcorrection">
+						<img class="logofooter" src="img/logo/Esprit_Shonen_White.svg" alt="logo esprit shonen">
+						<br><br>
+						<!-- Signin -->
+						<section class="signinfooter">
+							<img src="img/logo/logwhite.svg" alt="logo signin">
+							<h3>Sign in</h3>
+						</section>
 					</section>
 				</div>
 			</div>

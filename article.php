@@ -6,42 +6,37 @@
 
 <!-- Main -->
 	<main id="main">
-		<section class="product">
+		<section class="product flex">
+			<!-- Product Image -->
 			<img src="img/content/trunks 2.svg" alt="">
-			<div>
-				<div>
+			<div id="gapproduct">
+				<div class="flex space">
 					<h3>Sweat Eijiro</h3>
-					<h3>35€</h3>
+					<h3 id="price">35€</h3>
 				</div>
-				<h5>REF : 168257389</h5>
-				<div>
+				<h3 class="space none grey">REF : 168257389</h3>
+				<div class="flex space">
 					<img src="img/logo/shirt.svg" alt="">
-					<h4>PRODUCT DETAILS</h4>
+					<p style="padding-left: 5px;">Product Details</p>
 				</div>
-				<p>Soft sweatshirt fabric <br>
-				Style and comfort – it's a lifestyle 
-				</p>
-				<p>Main: 70% Polyester, 30% Cotton. <br>
+				<p class="none space">Soft sweatshirt fabric <br>
+				Style and comfort – it's a lifestyle</p>
+				<p class="none space">Main: 70% Polyester, 30% Cotton. <br>
 				SHOW LESS</p>
-				<p>Help about your size</p>
+				<p class="none space">Help about your size</p>
 				<form method="get" action="">
 					<hidden type="text" name="product" id="product_name">
-					<select name="select">
-						<option name="size" value="date" id="size_s">Date</option>
-						<option name="artist" value="artist">Artist</option>
-						<option name="ville" value="location">Ville</option>
+					<select class="buttonsize space" name="Taille">
+						<option name="size_s" value="s">S</option>
+						<option selected="selected" name="size_m" value="m">M</option>
+						<option name="size_l" value="l">L</option>
+						<option name="size_xl" value="xl">XL</option>
 					</select>
-					<input type="radio" name="size" id="size_s" value="S">
-					<label for="size_s">S</label><br>
-					<input type="radio" name="size" id="size_m" value="M" checked>
-					<label for="size_m">M</label><br>
-					<input type="radio" name="size" id="size_l" value="L">
-					<label for="size_l">L</label><br>
-					<input type="radio" name="size" id="size_xl" value="XL">
-					<label for="size_xl">XL</label><br>
+					<br>
+					<input class="buttonadd space" type="submit" value="Add to your bag">
 				</form>
-				<p>Free delivery to store</p>
-				<p>Information on deliveries and returns</p>
+				<p class="none halfspace">Free delivery to store</p>
+				<p class="none grey">Information on deliveries and returns</p>
 			</div>
 		</section>
 	</main>

@@ -25,6 +25,9 @@ body {
 		--navbar-height: 100px;
 		--global-horizontal-padding: 10px;
 	}
+	.none {
+		display: none;
+	}
 }
 
 /* PC */

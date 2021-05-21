@@ -68,7 +68,7 @@
 					</section>
 					<!-- Logo/Login -->
 					<section class="gridcorrection">
-						<img class="logofooter" src="img/logo/Esprit_Shonen_White.svg" alt="logo esprit shonen">
+						<img class="logofooter none" src="img/logo/Esprit_Shonen_White.svg" alt="logo esprit shonen">
 						<br><br>
 						<!-- Signin -->
 						<section class="signinfooter">

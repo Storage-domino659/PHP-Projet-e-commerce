@@ -1,0 +1,100 @@
+.halfspace {
+    margin-bottom: 15px;
+}
+/* Produict */
+.product {
+    margin: 4%;
+}
+.grey {
+    color: #797979;
+}
+.buttonsize {
+    all: unset;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    text-align-last: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.buttonsize:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+option {
+    text-align-last: center;
+}
+.buttonadd {
+    all: unset;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    text-align-last: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.buttonadd:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+
+/* Smartphone */
+@media screen and ( max-width: 600px ) {
+    /* Product Image */
+    .product > img {
+        object-fit: contain;
+        height: 200px;
+    }
+    #gapproduct {
+        margin-left: 10px;
+    }
+    .buttonsize {
+        height: 30px;
+        width: 130px;
+        line-height: 30px;
+    }
+    .buttonadd {
+        height: 30px;
+        width: 130px;
+        line-height: 30px;
+    }
+    .space {
+        margin-bottom: 30px;
+    }
+}
+
+/* PC */
+@media screen and ( min-width: 601px ) {
+    /* Product Image */
+    .product > img {
+        object-fit: contain;
+        height: 500px;
+        width: 600px;
+    }
+    /* Space Between Image and description */
+    #gapproduct {
+    margin-left: 150px;
+    }
+    .product > div > div > #price {
+        margin-left: 20%;
+    }
+    .buttonsize {
+        height: 50px;
+        width: 200px;
+        line-height: 50px;
+    }
+    .buttonadd {
+        height: 50px;
+        width: 200px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .space {
+        margin-bottom: 26px;
+    }
+}

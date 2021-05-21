@@ -175,9 +175,6 @@ footer h2, h3 {
 		grid-template-columns: 4fr 4fr 4fr;
 	}
 
-	.logofooter {
-		display: none;
-	}
 	.gridcorrection {
 		grid-column-start: 3;
 		grid-row-start: 1;

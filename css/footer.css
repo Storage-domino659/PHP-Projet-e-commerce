@@ -107,7 +107,7 @@ body > footer > .footer2 > div > section > h5 {
 
 /* Logo Esprit Shonn Footer */
 .logofooter {
-	height: 35px;
+	height: 40px;
 }
 
 /* Flag */
@@ -201,9 +201,5 @@ footer h2, h3 {
 
 	body > footer > .footer2 > div {
 		margin: 0 5% 0 5%;
-	}
-	
-	.signinfooter {
-		margin: auto;
 	}
 }

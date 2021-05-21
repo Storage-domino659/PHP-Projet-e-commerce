@@ -151,6 +151,16 @@ footer h2, h3 {
 	line-height: 25px;
 }
 
+/* Credit */
+.credit {
+	background-color: black;
+	color: white;
+}
+
+.credit > h4 {
+	text-align: center;
+}
+
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
 

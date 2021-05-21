@@ -1,3 +1,5 @@
+SITE MAQUETTE PROJECT ETUDIENT
+
 Introduction
 Construire un site vitrine pour une "entreprise" de votre choix (artisan, artiste, société
 de service, école, magasin, etc.).

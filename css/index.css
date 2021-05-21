@@ -12,29 +12,33 @@
 
 .video > video {
 	width: 100%;
+	-o-filter: blur(1px);
+    filter: blur(1.2px) opacity(0.50) grayscale(0.10);
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .video > #newcollection {
 	position: absolute;
-	color: white;
+	color: black;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .video > h2 {
 	position: absolute;
-	color: white;
+	color: black;
 	left: 50%;
 	transform: translateX(-50%);
-	border-bottom: 3px solid white;
-	border-top: 3px solid white;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
 	width: fit-content;
 }
 
 .video > #shopnow {
 	position: absolute;
-	color: white;
-	border: 3px solid white;
+	color: black;
+	border: 3px solid black;
 	padding: 10px 15px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -43,9 +47,9 @@
 }
 
 .video > #shopnow:hover {
-	color: black;
-	background-color: white;
-	border: 3px solid white;
+	color: white;
+	background-color: black;
+	border: 3px solid black;
 	transition: 0.5s;
 }
 

@@ -12,7 +12,7 @@
 			<!-- <video controls src="vid/fmaa.mp4"></video> -->
 			<h3 id="newcollection">New Collection</h3>
 			<h2>FULLEMETAL ALCHMIST</h2>
-			<a id="shopnow" href="">Shop Now</a>
+			<a id="shopnow" href="article.php">Shop Now</a>
 		</section>
 
 		<div class="titlecollection">

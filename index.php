@@ -8,9 +8,11 @@
 	<main id="main">
 		<section class="video">
 			<video src="vid/fmaa.mp4" autoplay loop muted></video>
+			<!-- Si tu veut le control -->
+			<!-- <video controls src="vid/fmaa.mp4"></video> -->
 			<h3 id="newcollection">New Collection</h3>
 			<h2>FULLEMETAL ALCHMIST</h2>
-			<a id="shopnow">Shop Now</a>
+			<a id="shopnow" href="">Shop Now</a>
 		</section>
 
 		<div class="titlecollection">

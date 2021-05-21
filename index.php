@@ -7,6 +7,7 @@
 <!-- Main -->
 	<main id="main">
 		<section class="video">
+			<video src="vid/fmaa.mp4" autoplay loop muted></video>
 			<h3 id="newcollection">New Collection</h3>
 			<h2>FULLEMETAL ALCHMIST</h2>
 			<a id="shopnow">Shop Now</a>

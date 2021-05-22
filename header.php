@@ -33,7 +33,7 @@
                     <img src="img/logo/logblack.svg" alt="logo signin">
                     <h4>Sign in</h4>
                 </section>
-                <a href=""><img src="img/logo/shop.svg" alt="logo esprit shonen"></a>
+                <a href="panier.php"><img src="img/logo/shop.svg" alt="logo esprit shonen"></a>
             </div>
         </nav>
         <section>

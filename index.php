@@ -12,7 +12,7 @@
 			<!-- <video controls src="vid/fmaa.mp4"></video> -->
 			<h3 id="newcollection">New Collection</h3>
 			<h2>FULLEMETAL ALCHMIST</h2>
-			<a id="shopnow" href="article.php">Shop Now</a>
+			<a id="shopnow" href="collection.php">Shop Now</a>
 		</section>
 
 		<div class="titlecollection">
@@ -21,16 +21,16 @@
 		
 		<section class="collection">
 			<div>
-				<a href=""><h3>Bleach</h3></a>
+				<a href="collection.php"><h3>Bleach</h3></a>
 				<img src="img/content/bleach.jpg" alt="Img Bleach">
 
 			</div>
 			<div>
-				<a href=""><h3>HxH</h3></a>
+				<a href="collection.php"><h3>HxH</h3></a>
 				<img src="img/content/hxh.jpg" alt="Img HxH">
 			</div>
 			<div>
-				<a href=""><h3>DBZ</h3></a>
+				<a href="">collection.php<h3>DBZ</h3></a>
 				<img src="img/content/dbz.jpg" alt="Img DBZ">
 			</div>
 		</section>

@@ -37,6 +37,9 @@ body {
 		--navbar-height: 150px;
 		--global-horizontal-padding: 40px;
 	}
+	.nonemobile {
+		display: none;
+	}
 }
 
 .flex {

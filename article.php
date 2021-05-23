@@ -10,20 +10,29 @@
 			<!-- Product Image -->
 			<img src="img/content/trunks 2.svg" alt="">
 			<div id="gapproduct">
-				<div class="flex space">
-					<h3>Sweat Eijiro</h3>
-					<h3 id="price">35€</h3>
+			 	<!-- Wide Screen -->
+				<div class="flex">
+					<h3 class="none">Sweat Eijiro</h3>
+					<h3 class="none" id="price">35€</h3>
+				</div>
+				<!-- Mobile -->
+				<div class="flex halfspace">
+					<h4 class="nonemobile">Sweat Eijiro</h4>
+					<h4 class="nonemobile" id="price">35€</h4>
 				</div>
 				<h3 class="space none grey">REF : 168257389</h3>
-				<div class="flex space">
+				<div class="flex halfspace">
 					<img src="img/logo/shirt.svg" alt="">
 					<p style="padding-left: 5px;">Product Details</p>
 				</div>
-				<p class="none space">Soft sweatshirt fabric <br>
-				Style and comfort – it's a lifestyle</p>
-				<p class="none space">Main: 70% Polyester, 30% Cotton. <br>
-				SHOW LESS</p>
-				<p class="none space">Help about your size</p>
+				<p class="none">Soft sweatshirt fabric</p>
+				<div id="d1" style="display: none">
+					<p class="none"> Style and comfort – it's a lifestyle</p>
+					<p class="none">Main: 70% Polyester, 30% Cotton.</p>
+				</div>
+				<!-- Button Show -->
+				<button class="space buttonmoreless none" id="togg1">SHOW MORE</button>
+				<p class="none size">Help about your size</p>
 				<form method="get" action="">
 					<hidden type="text" name="product" id="product_name">
 					<select class="buttonsize space" name="Taille">
@@ -37,8 +46,8 @@
 				</form>
 				<p class="none halfspace">Free delivery to store</p>
 				<p class="none grey">Information on deliveries and returns</p>
-			</div>
+			</div>	
 		</section>
 	</main>
-
+<script src="js/show-more-less.js"></script>
 <?php include 'footer.php'; ?>

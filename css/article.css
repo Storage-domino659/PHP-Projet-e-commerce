@@ -73,15 +73,15 @@ option {
     /* Product Image */
     .product > img {
         object-fit: contain;
-        height: 500px;
-        width: 600px;
+        height: 600px;
+        width: 700px;
     }
     /* Space Between Image and description */
     #gapproduct {
     margin-left: 150px;
     }
     .product > div > div > #price {
-        margin-left: 20%;
+        margin-left: 40%;
     }
     .buttonsize {
         height: 50px;
@@ -96,5 +96,16 @@ option {
     }
     .space {
         margin-bottom: 26px;
+    }
+    .buttonmoreless {
+        all: unset;
+        margin: 15px 0;
+    }
+    .buttonmoreless:hover {
+        opacity: 0.8;
+    }
+    .size {
+        text-decoration: underline;
+        margin-bottom: 6px;
     }
 }

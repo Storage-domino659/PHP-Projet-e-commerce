@@ -42,5 +42,4 @@
                 <p>Search here</p>
             </section>
         </section>
-
     </header>

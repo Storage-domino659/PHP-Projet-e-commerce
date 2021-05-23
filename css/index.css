@@ -5,11 +5,11 @@
 	min-height: 100vh;
 }
 
+/* Video */
 .video {
 	position: relative;
 	background-color: grey;
 }
-
 .video > video {
 	width: 100%;
 	-o-filter: blur(1px);
@@ -17,14 +17,12 @@
     object-fit: cover;
     overflow: hidden;
 }
-
 .video > #newcollection {
 	position: absolute;
 	color: black;
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 .video > h2 {
 	position: absolute;
 	color: black;
@@ -34,7 +32,6 @@
 	border-top: 3px solid black;
 	width: fit-content;
 }
-
 .video > #shopnow {
 	position: absolute;
 	color: black;
@@ -45,7 +42,6 @@
 	font-weight: bold;
 	transition: 0.5s;
 }
-
 .video > #shopnow:hover {
 	color: white;
 	background-color: black;
@@ -53,15 +49,14 @@
 	transition: 0.5s;
 }
 
+/* Collection */
 .titlecollection {
 	height: 60px;
 	margin-top: 50px;
 }
-
 .titlecollection > h2 {
 	text-align: center;
 }
-
 .collection {
 
     box-sizing: border-box;

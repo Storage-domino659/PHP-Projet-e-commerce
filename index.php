@@ -6,6 +6,7 @@
 
 <!-- Main -->
 	<main id="main">
+		<!-- Video -->
 		<section class="video">
 			<video src="vid/fmaa.mp4" autoplay loop muted></video>
 			<!-- Si tu veut le control -->
@@ -14,7 +15,7 @@
 			<h2>FULLEMETAL ALCHMIST</h2>
 			<a id="shopnow" href="collection.php">Shop Now</a>
 		</section>
-
+		<!-- Collection -->
 		<div class="titlecollection">
 			<h2 >Our Collections</h2>
 		</div>

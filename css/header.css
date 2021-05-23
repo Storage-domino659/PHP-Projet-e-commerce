@@ -24,17 +24,14 @@ header > section:nth-child( 1 ) {
 	position: absolute;
     right: 25px;
 }
-
 .flagheader > img {
 	margin-top: 10%;
 	height: 15px;
 }
-
 .flagheader > p {
 	text-align: center;
 	padding-left: 10px;
 }
-
 header > section:nth-child( 3 ) {
 	height: 45px;
 }
@@ -45,11 +42,9 @@ header > section:nth-child( 3 ) {
 	margin-left: 3%;
 	align-items: flex-end;
 }
-
 .searchbar > img {
 	height: 15px;
 }
-
 .searchbar > p {
 	text-align: center;
 	padding-left: 10px;

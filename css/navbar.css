@@ -39,21 +39,17 @@ body > header > nav > ul {
 	align-items: center;
 	transition: 0.5s;
 }
-
 .signinheader:hover {
 	border: 2px solid black;
 	transition: 0.5s;
 }
-
 .signinheader > img {
 	height: 20px;
 }
-
 .signinheader > h4 {
 	margin-left: 10px;
 	height: fit-content;
 }
-
 .contentshop > a > img {
 	height: 25px;
 }
@@ -63,12 +59,10 @@ body > header > nav > ul {
 	body {
 		padding-top: var( --navbar-height );
 	}
-
 	/* Menu burger */
 	body > header > nav > a > img {
 		height: 70%;
 	}
-
 	body > header > nav > img {
 		margin: var( --navbar-padding ) 0;
 		transition: transform .6s ease;
@@ -80,7 +74,6 @@ body > header > nav > ul {
 	body > header > nav.opened > img {
 		transform: rotate( 90deg );
 	}
-
 	.contentshop > a > img {
 		margin-left: 5px;
 	}
@@ -121,16 +114,13 @@ body > header > nav > ul {
 	body > header > nav > img {
 		display: none;
 	}
-
 	body > header > nav > a > img {
 		height: 100%;
 	}
-
 	/* Liste */
 	body > header > nav > ul {
 		column-gap: 20px;
 	}
-
 	.contentshop > a > img {
 		margin-left: 25px;
 	}

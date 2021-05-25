@@ -25,9 +25,9 @@
 					<img src="img/logo/shirt.svg" alt="">
 					<p style="padding-left: 5px;">Product Details</p>
 				</div>
-				<p class="none">Soft sweatshirt fabric</p>
+				<p class="none quarterspace">Soft sweatshirt fabric</p>
 				<div id="d1" style="display: none">
-					<p class="none"> Style and comfort – it's a lifestyle</p>
+					<p class="none quarterspace"> Style and comfort – it's a lifestyle</p>
 					<p class="none">Main: 70% Polyester, 30% Cotton.</p>
 				</div>
 				<!-- Button Show -->

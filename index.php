@@ -31,7 +31,7 @@
 				<img src="img/content/hxh.jpg" alt="Img HxH">
 			</div>
 			<div>
-				<a href="">collection.php<h3>DBZ</h3></a>
+				<a href="collection.php"><h3>DBZ</h3></a>
 				<img src="img/content/dbz.jpg" alt="Img DBZ">
 			</div>
 		</section>

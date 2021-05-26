@@ -25,7 +25,7 @@ body > footer > .footer1 > section {
 }
 .footer0 > section:nth-child( 4 ) {
 	border: 3px solid black;
-	padding: 5px 15px;
+	padding: 5px 70px;
 	width: fit-content;
 	margin: auto;
 	font-weight: bold;

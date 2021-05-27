@@ -21,8 +21,7 @@
     transition: 0.5s;
 }
 .buttonsize:hover {
-    color: white;
-    background-color: black;
+    opacity: 0.5;
     border: 2px solid black;
     transition: 0.5s;
 }

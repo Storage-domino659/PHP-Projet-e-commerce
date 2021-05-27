@@ -1,0 +1,81 @@
+.pull{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.pull > *{
+    flex : 1 1 10em;
+    margin: 2.5em;
+}
+.pull > article > div > button{
+    all: unset;
+    width: 160px;
+    height: 42px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.5s;
+}
+.pull > article > div > button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.pull > article > img{
+    width: 100%;
+    display: block; 
+    object-fit: contain;
+}
+.pull > article > div{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2.5em;
+}
+.release > *:nth-child(1){
+    flex : 1 1 50%;
+    min-width: 25ch;
+    margin-right: 1em;
+}
+.release > *:nth-child(2){
+    flex : 1 1 43%;
+    min-width: 15ch;
+    margin-left: 1em;
+}  
+.release  > video{
+    margin: auto;
+    display: block;
+    margin-top: 0;
+}
+.release > article > img {
+    width: 100%;
+    display: block; 
+    object-fit: contain;
+}
+.release > #re-release{
+    margin-bottom: 10px;
+}
+
+
+/* Smartphone */
+@media screen and ( max-width: 600px ) {
+    .upspace {
+        margin-top: 8px;
+    }
+}
+
+/* PC */
+@media screen and ( min-width: 601px ) {
+    .upspace {
+        margin-top: 18px;
+    }
+}

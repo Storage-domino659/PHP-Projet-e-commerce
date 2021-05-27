@@ -16,6 +16,7 @@ html {
 /* Sans media */
 body {
 	min-width: fit-content;
+	/* width: max-content; */
 }
 
 /* Smartphone */
@@ -44,6 +45,10 @@ body {
 
 .flex {
 	display: flex;
+}
+
+.between {
+	justify-content: space-between;
 }
 
 h1 {	

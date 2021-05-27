@@ -15,7 +15,7 @@
                     <h3>Sweat Shanks</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -27,7 +27,7 @@
                     <h3>Sweat Chopper</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -39,7 +39,7 @@
                     <h3>Sweat Ace</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
     </div>

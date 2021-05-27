@@ -13,7 +13,7 @@
                     <h3>Sweat Trunks</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -23,7 +23,7 @@
                     <h3>Sweat Bulma</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -33,7 +33,7 @@
                     <h3>Sweat Piccolo</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
     </div>

@@ -15,7 +15,7 @@
                     <h3>Sweat Byakuya</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -27,7 +27,7 @@
                     <h3>Sweat Aizen</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
         <article>
@@ -39,7 +39,7 @@
                     <h3>Sweat Kon</h3>
                     <h3>35€</h3>
                 </div>
-                <button>buy</button>
+                <button>Buy</button>
             </div>
         </article>
     </div>

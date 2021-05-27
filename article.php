@@ -8,11 +8,11 @@
 	<main id="main">
 		<section class="product flex">
 			<!-- Product Image -->
-			<img src="img/content/trunks 2.svg" alt="">
+			<img src="img/content/Kon.jpg" alt="">
 			<div id="gapproduct">
 			 	<!-- Wide Screen -->
 				<div class="flex">
-					<h3 class="none">Sweat Eijiro</h3>
+					<h3 class="none">Sweat Kon</h3>
 					<h3 class="none" id="price">35€</h3>
 				</div>
 				<!-- Mobile -->

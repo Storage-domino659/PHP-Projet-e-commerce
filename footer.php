@@ -80,7 +80,7 @@
 			</div>
 		</footer>
 		<div class="credit">
-			<h4>SITE MAQUETTE PROJECT ETUDIENT</h4>
+			<h4>SITE MAQUETTE PROJECT ETUDIANT</h4>
 		</div>
 		<!-- JS global -->
 		<script src="js/script.js"></script>

@@ -42,7 +42,7 @@
 						<option name="size_xl" value="xl">XL</option>
 					</select>
 					<br>
-					<input class="buttonadd space" type="submit" value="Add to your bag">
+					<button class="buttonadd space" type="button">Add to your bag</button>
 				</form>
 				<p class="none halfspace">Free delivery to store</p>
 				<p class="none grey">Information on deliveries and returns</p>
@@ -50,4 +50,5 @@
 		</section>
 	</main>
 <script src="js/show-more-less.js"></script>
+<script src="js/add-to-cart.js"></script>
 <?php include 'footer.php'; ?>

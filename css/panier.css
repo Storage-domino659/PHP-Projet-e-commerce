@@ -92,8 +92,9 @@ span{
 
 /* Smartphone */
 @media screen and ( max-width: 600px ) {
-}
-.product > img {
-    object-fit: contain;
-    height: 200px;
+
+	.product > img {
+	    object-fit: contain;
+	    height: 200px;
+	}
 }

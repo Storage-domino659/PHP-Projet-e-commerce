@@ -12,7 +12,7 @@
 			<!-- Si tu veut le control -->
 			<!-- <video controls src="vid/fmaa.mp4"></video> -->
 			<h3 id="newcollection">New Collection</h3>
-			<h2>FULLEMETAL ALCHMIST</h2>
+			<h2>FULLMETAL ALCHEMIST</h2>
 			<a id="shopnow" href="collectiononepiece.php">Shop Now</a>
 		</section>
 		<!-- Collection -->
